@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Title>System.Text.Json.NodaTime</Title> 
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2.1.0.0</Version>
+    <Authors>@oferns</Authors>
+    <Description>JSON Converters for .NET Standard 2.1 that serialize and deserialize NodaTime types using System.Text.Json (not Newtonsoft).</Description>
+    <Copyright></Copyright>
+    <PackageProjectUrl>https://github.com/oferns/System.Text.Json.NodaTime</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/oferns/System.Text.Json.NodaTime</RepositoryUrl>
+    <PackageTags>NodaTime System.Text.Json Json JsonConverter</PackageTags>
+    <PackageReleaseNotes>Functional replacement for NodaTime.Serialization.JsonNet (https://github.com/nodatime/nodatime.serialization) using System.Text.Json.</PackageReleaseNotes>
+    <AssemblyVersion>2.1.0.0</AssemblyVersion>
+    <FileVersion>2.1.0.0</FileVersion>
+    <PackageId>Text.Json.NodaTime</PackageId>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NodaTime" Version="2.4.7" />
+    <PackageReference Include="System.Text.Json" Version="4.6.0" />
+  </ItemGroup>
+
+</Project>
